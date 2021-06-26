@@ -1,0 +1,171 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img {max-width: 100%;}
+
+/* header-section */
+.nev-item {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+    font-size: 18px;
+}
+.nev-item span {
+    background: #6278df;
+    color: #fff;
+    height: 40px;
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+    font-size: 23px;
+    border-radius: 5px;
+    padding: 2px 11px;
+    margin-right: 15px;
+}
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 44px;
+}
+
+
+/* slaider-section */
+.slaider-text {
+    background: url(https://i.ibb.co/YjfrThb/6.jpg) no-repeat center center fixed;
+    padding: 225px 0;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .4);
+    background-size: cover;
+}
+.slaider-text h2 {
+    margin-bottom: 75px;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.slaider-text h4 {
+    margin-bottom: 30px;
+    font-size: 25px;
+    margin-top: -70px;
+}
+
+.slaider-text .baton {
+    padding: 15px 120px;
+    border: 1px solid #12bf12;
+    margin-left: 38px;
+    background-color: #12af12;
+    font-size: 19px;
+}
+
+.slaider-text .baton:hover {
+    background-color: #fff;
+}
+
+.slaider-text .mail {
+    overflow: hidden;
+    outline: none;
+    padding: 15px 59px;
+    border-radius: 8px;
+    border: 1px solid #1add1a;
+    box-sizing: border-box;
+    font-size: 19px;
+}
+
+.number-section h1 {
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.number-section p {
+    font-size: 22px;
+}
+
+/* contant-section */
+
+.contant-section {
+    background: #e4e4e7;
+    margin-top: 50px;
+    padding: 40px 0;
+}
+
+.contant-text h1 {
+    margin-bottom: 27px;
+    font-size: 45px;
+}
+
+.contant-text p {
+    font-size: 21px;
+}
+
+/* service-section */
+.member-item {
+    height: 275px;
+    background: #fdfdff;
+    box-shadow: 2px 3px 5px -6px;
+}
+.member-img img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    top: 0;
+    left: -80px;
+}
+
+.member-img {
+    width: 40%;
+    overflow: hidden;
+}
+.member-text {
+    width: 60%;
+    padding: 28px;
+}
+
+.contant-text {
+    padding-right: 45px;
+}
+.contant-text h1 {
+    margin-bottom: 24px;
+    font-size: 40px;
+}
+
+.contant-text p {
+    font-size: 24px;
+}
+
+.member-text h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.member-text p {
+    line-height: 26px;
+    font-size: 15px;
+}
+/* all-devise-section */
+.devise-image a{
+    position: relative;
+    display: block;
+}
+.devise-image a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(97, 119, 223, .7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.devise-image:hover a::after{
+    visibility: visible;
+    opacity: 1;
+}
+.devise-text h2{
+    font-size: 50px;
+}
